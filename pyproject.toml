@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "shapeshifter-api"
+version = "0.1.0"
+description = ""
+authors = ["marcelo.mesquita <marcelo.mesquita@codex.com.br>"]
+readme = "README.md"
+packages = [{include = "shapeshifter_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+django-filter = "^23.2"
+markdown = "^3.4.3"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+python-dotenv = "^1.0.0"
+pillow = "^10.0.0"
+drf-access-policy = "^1.5.0"
+djecrety = "^1.0.17"
+django-cors-headers = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
